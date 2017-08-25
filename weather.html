@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+	/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>天气</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+
+</head>
+
+<body style=" background:#270f49;">
+	<div class="main">
+		<banner><img src="images/banner.jpg"></banner>
+		<homemaininfo>
+			<titleinfo>
+				<ul>
+					<li><a href="javascript:history.go(-1)">返回</a> 永川天气</li>
+					<li class="ewm">
+						<img src="images/erweima.jpg">
+						<p>扫码领优惠券</p>
+					</li>
+					<li class="time">
+						<p>15:23:35</p>
+						<em>2017-08-21 星期一</em>
+					</li>
+				</ul>
+			</titleinfo>
+			<weather>
+				<img src="images/w.png">
+			</weather>
+		</homemaininfo>
+	</div>
+</body>
+<script type="text/javascript">
+	function setRem() {
+		document.documentElement.style.fontSize = window.innerWidth / 20 + "px";
+	};
+	setRem();
+	window.onresize = function () {
+		setRem();
+	}
+
+</script>
+
+</html>

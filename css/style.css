@@ -1,0 +1,526 @@
+banner{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 1;
+    }
+banner img{
+    width: 100%;
+    }
+liner{
+    width: 100%;
+    height: 10px;
+    background-color: #270f49;    
+    }
+homemaininfo{
+    width: 100%;
+    display: block;
+    background: url(../images/mainbg.png) no-repeat,-webkit-linear-gradient(top, #6100a5,#12031d);
+    background-size: cover;
+    border-top: 8px solid #270f49;
+    border-bottom: 10px solid #150322;
+    min-height: 20rem;
+    background-position: 50% 50%;
+    }
+titleinfo{
+    width: 90%;
+    color: #fff;
+    display: block;
+    margin: 30px auto;
+    }
+titleinfo ul{
+    width: 100%;
+    }
+titleinfo ul li{
+    width: 33%;
+    float: left;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    text-align: left;
+    }
+titleinfo ul li a{color:#fff;}
+titleinfo ul li.ewm{
+    position: relative;
+}
+.ewm p {
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 0.35rem;
+}
+titleinfo ul li.ewm img{
+    margin: 0 auto;
+    display: block;
+    margin-top: -3rem;
+    z-index: 999;
+    text-align: center;
+    width: 70%;
+}
+titleinfo ul li.time{
+    text-align: right;
+}
+titleinfo ul li.time em{
+    font-size: 0.35rem;
+}
+menuicon {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+menuicon ul{
+    position: relative;
+    font-size: 0;
+    text-align: center;
+}
+menuicon ul li {
+    float: left;
+    width: 3rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    margin-right: 1rem;
+    margin-left: 3rem;
+    float: left;
+}
+menuicon ul li img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+menuicon ul li:nth-child(2){
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+menuicon ul li:nth-child(3){
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+menuicon ul li:nth-child(4){
+    margin-left: 5rem;
+    margin-right: 0rem;
+}
+menuicon ul li:nth-child(6){
+    margin-left: 3rem;
+}
+menuicon ul li.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 130%);
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+}
+menuicon ul li.center img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+menuicon ul li p {
+    color: #fff;
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+/* location */
+locamaininfo titleinfo{
+    color: #333;
+}
+locamaininfo titleinfo ul li a{
+    color: #333;
+}
+.commom {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 0.5rem;
+    float: left;
+}
+.commom img{
+    width: 100%;
+}
+shops {
+    width: 100%;
+    float: left;
+}
+shops sptitle{
+    height: 1.5rem;
+    width: 100%;
+    display: inline-block;
+    line-height: 1.5rem;
+    padding: 0.2rem;
+    margin: 0 auto;
+    display: block;
+    padding: 0 5%;
+    background: #f5f5f5;
+    margin-bottom: 0.5rem;
+}
+sptitle ul {
+    height: 100%;
+    padding-bottom: 0.5rem;
+}
+sptitle ul li{
+    font-size: 0.5rem;
+    float: left;
+    color: #666666;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+sptitle ul li.active{
+    color: #f42c7b;
+}
+
+.swiper-container {
+    width: 95%;
+    margin: 0 auto;
+}
+.swiper-wrapper .swiper-slide{
+   
+float: left;
+   
+margin-right: 10px;
+   
+padding: 5px;
+   
+font-size: 0.6rem;
+   
+border: 1px solid #ddd;
+   
+width: 30%!important;
+}
+.swiper-slide a{
+    color: #555;
+}
+.shopsimg{
+    overflow: hidden;
+    height: 3.5rem;
+    position: relative;
+}
+.shopsimg em{
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    height: 2rem;
+    width: 2rem;
+}
+.shopsimg img{width: 100%;}
+.swiper-slide span{
+    height: 1rem;
+    font-size: 0.35rem;
+    line-height: 1rem;
+    display: block;
+}
+.swiper-slide span em{
+    float: left;
+    height: 100%;
+    line-height: 1rem;
+}
+.swiper-slide span i {
+    float: right;
+    height: 1rem;
+    line-height: 1rem;
+    color: #999;
+    margin-left: 0.2rem;
+    
+}
+.swiper-slide p{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    float: left;
+    font-size: 0.35rem;
+    color: #999;
+}
+.swiper-slide p i{
+    float: right;
+}
+.swiper-slide:hover{
+    color: #da3431;
+}
+
+/* traffic */
+trafficroute{
+    width: 80%;
+    margin: 0 auto;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    display: block;
+}
+trafficroute i{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/*client*/
+client{
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.clientvip li{
+    height: 4.5rem;
+    background: #eee;
+    margin: 1% 0;
+    display: block;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.clienttour {
+    width: 100%;
+    height: 100%;
+}
+.clienttourleft{
+    width: 60%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+     margin-right: 2%;
+     position:relative;
+    }
+.clienttourlefticon{
+    position: absolute;
+    top: -0.35rem;
+    left: 0.5rem;
+    background-image: url(../images/vip.png);
+    width: 3.5rem;
+    background-size: 100%;
+    height: 1.5rem;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.clienttourleft img{
+    height: 4.5rem;
+}
+.clienttourright{
+    width: 38%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+.clienttourright h2{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    height: 1rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.clienttourright label{
+    width: 2.5rem;
+    height: 0.5rem;
+    background: #eb0058;
+    color: #fff100;
+    text-align: center;
+    font-size: 0.35rem;
+    display: block;
+    line-height: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+.clienttourright em{
+    width: 100%;
+    display: block;
+    font-size: 0.6rem;
+}
+.clienttourright button{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    height: 1.5rem;
+    background: #786af5;
+    border:1px solid #6100a5;
+    border-radius: 2rem;
+    margin-top: 0.2rem;
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: left;
+    padding: 0 0.5rem;
+}
+.clienttourright button p{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #fff;
+    border-radius: 50%;
+    float: right;
+    color: #333;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+}
+.clienttourright button font{
+    float: left;
+    
+}
+mask{
+    width: 100%;
+    display: none;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+mask img{
+    margin: 0 auto;
+    width: 7rem!important;
+    display: block;
+    line-height: 4.5rem;
+    margin-top: 0.5rem;
+}
+.clientvip li:hover mask{
+    display: block;
+}
+page{
+    width: 34%;
+    margin: 0 auto;
+    display: block;
+    font-size: 0.8rem;
+    background: #f3f3f3;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 2rem;
+    color: #333;
+    border:3px solid #dbdbdb;
+}
+page ul li{
+    float: left;
+    text-align: center;
+    width: 48%; 
+
+}
+/* å¤©æ°” */
+weather img{
+    width: 100%;
+}
+
+/* ä½å®¿ */
+hotelbanner {
+    padding-top: 0.5rem;
+    float: left;
+    width: 100%;
+}
+hotelbanner img {
+    width: 100%;
+}
+hotellist{
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+hotellist ul li{
+    height: 4.5rem;
+    margin: 1% 0;
+    display: block;
+    position: relative;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+.hotelshow{
+    width: 28%;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.hotelshow img{
+    width: 100%;
+    height: 4.5rem;
+}
+.hotelinfo{
+    width: 45%;
+    float: left;
+    font-size: 0.6rem;
+    color: #999;
+    height: 100%;
+}
+.hotelinfo h2{
+    color: #333;
+    font-size: 0.65rem;
+    margin-bottom: 0.2rem;
+}
+.hotelinfo font{
+    width: 100%;
+    display: block;
+    font-size: 0.5rem;
+    color: #999;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+.hotelewm{
+    width: 25%;
+    float: left;
+    color: #ff9900;
+   
+}
+.hotelewm img{
+    float: right;
+    margin-bottom: 0.5rem;
+    width: 60%;
+}
+.hotelewm p{
+    width: 100%;
+    float: left;
+    font-size: 0.55rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.hotelewm i{
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    background-image: url(../images/24.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 0.2rem;
+}
+.shops_score {
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 0.5rem;
+    color: #999;
+    margin-bottom: 0.2rem;
+}
+.shops_score img{float: left;}
+.shops_score em{float: left;color: #ff9900;margin: 0 0.2rem;}
+.shops_score label{float: left;}
+.hotelinfo span{
+    color: #ed362e;
+    width: 100%;
+    display: block;
+    font-size: 0.45rem;
+    margin-bottom: 0.2rem;
+}
+.hotelinfo span b{
+    font-size: 1rem;
+}
+.hotelinfo p em{
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    border: 0.05rem solid #f5716e;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #f5716e;
+    margin-right: 0.2rem;
+    float: left;
+}
+.hotelinfo p label{
+    color: #ff9900;
+    width: 6.5rem;
+    height: 0.8rem;
+    display: block;
+    border: 0.05rem solid #ff9900;
+    text-align: center;
+    line-height: 0.8rem;
+    float: left;
+}

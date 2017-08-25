@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>旅游</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+
+</head>
+
+<body>
+    <div class="main">
+        <banner><img src="images/banner.jpg"></banner>
+        <locamaininfo>
+            <titleinfo>
+                <ul>
+                    <li><a href="javascript:history.back(-1)">返回</a> 旅游信息</li>
+                    <li class="ewm">
+                        <img src="images/erweima.jpg">
+                        <p>扫码领优惠券</p>
+                    </li>
+                    <li class="time">
+                        <p>15:23:35</p>
+                        <em>2017-08-21 星期一</em>
+                    </li>
+                </ul>
+            </titleinfo>
+            <!-- 旅游 -->
+            <tour class="commom">
+                <tourbanner><img src="images/tourimg.jpg"></tourbanner>
+                <!-- 客户端专享 -->
+                <client>
+                    <ul class="clientvip">
+                        <li>
+                            <div class="clienttour">
+                                <div class="clienttourleft">
+                                    <img src="images/tour01.jpg">
+                                    <div class="clienttourlefticon"></div>
+                                </div>
+                                <div class="clienttourright">
+                                    <h2>永川卫星湖</h2>
+                                    <label>AAAAA级景区</label>
+                                    <em>地址：重庆市永川区双竹镇</em>
+                                    <button>
+                                       <font> 
+                                           明日可预订<br>
+                                        400-123-456
+                                    </font>
+                                        <p>购</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <mask><img src="images/ewm.png"></mask>
+                        </li>
+                        <li>
+                            <div class="clienttour">
+                                <div class="clienttourleft">
+                                    <img src="images/tour02.jpg">
+                                    <div class="clienttourlefticon"></div>
+                                </div>
+                                <div class="clienttourright">
+                                    <h2>神女湖风景区</h2>
+                                    <label>AAAAA级景区</label>
+                                    <em>地址：重庆市永川区双竹镇</em>
+                                    <button>
+                                       <font> 
+                                           明日可预订<br>
+                                        400-123-456
+                                    </font>
+                                        <p>购</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <mask><img src="images/ewm.png"></mask>
+                        </li>
+                        <li>
+                            <div class="clienttour">
+                                <div class="clienttourleft">
+                                    <img src="images/tour03.jpg">
+                                    <div class="clienttourlefticon"></div>
+                                </div>
+                                <div class="clienttourright">
+                                    <h2>永川桃花源</h2>
+                                    <label>AAAAA级景区</label>
+                                    <em>地址：重庆市永川区双竹镇</em>
+                                    <button>
+                                       <font> 
+                                           明日可预订<br>
+                                        400-123-456
+                                    </font>
+                                        <p>购</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <mask><img src="images/ewm.png"></mask>
+                        </li>
+                    </ul>
+                    <page>
+                        <ul>
+                            <li style="border-right:3px solid #dbdbdb"><a herf="#">上一页</a></li>
+                            <li><a herf="#">下一页</a></li>
+                        </ul>
+                    </page>
+                </client>
+            </tour>
+
+        </locamaininfo>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.js"></script>
+<script type="text/javascript">
+    function setRem() {
+        document.documentElement.style.fontSize = window.innerWidth / 20 + "px";
+    };
+    setRem();
+    window.onresize = function () {
+        setRem();
+    };
+
+</script>
+
+</html>
